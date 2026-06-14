@@ -27,7 +27,7 @@ rm -rf \
 #   "$WORK/Payload/WatchKitSupport"
 
 # Catches anything nested (frameworks, odd layouts) the top-level rm missed.
-find "$APP" -name '*.appex' -type d -prune -exec rm -rf {} +
+find "$APP" -name '*.appex' -type d ! -path "$APP/PlugIns/IntentsExtension.appex" -prune -exec rm -rf {} +
 
 leftover=$(
     find "$APP" -name 'Info.plist' -not -path '*/_CodeSignature/*' -exec sh -c '
