@@ -23,7 +23,7 @@ rm -rf \
     "$APP/WatchKitSupport" \
     "$APP/com.apple.WatchPlaceholder" \
 #   "$APP/PlugIns" \
-    "$APP/Extensions" \
+#   "$APP/Extensions" \
     "$WORK/Payload/WatchKitSupport"
 
 # Catches anything nested (frameworks, odd layouts) the top-level rm missed.
