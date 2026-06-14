@@ -24,7 +24,7 @@ rm -rf \
     "$APP/com.apple.WatchPlaceholder" \
 #   "$APP/PlugIns" \
 #   "$APP/Extensions" \
-    "$WORK/Payload/WatchKitSupport"
+#   "$WORK/Payload/WatchKitSupport"
 
 # Catches anything nested (frameworks, odd layouts) the top-level rm missed.
 find "$APP" -name '*.appex' -type d -prune -exec rm -rf {} +
