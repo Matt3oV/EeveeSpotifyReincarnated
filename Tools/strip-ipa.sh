@@ -22,7 +22,7 @@ rm -rf \
     "$APP/WatchKit" \
     "$APP/WatchKitSupport" \
     "$APP/com.apple.WatchPlaceholder" \
-    "$APP/PlugIns" \
+#   "$APP/PlugIns" \
     "$APP/Extensions" \
     "$WORK/Payload/WatchKitSupport"
 
